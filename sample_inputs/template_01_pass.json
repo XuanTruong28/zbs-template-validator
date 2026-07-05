@@ -1,0 +1,18 @@
+{
+  "template_name": "order_confirmation",
+  "tag": 1,
+  "purpose": "Confirm that an order has been placed successfully",
+  "industry": "F&B",
+  "content": "Thank you {customer_name} for ordering from {shop_name}. Order ID: {order_id}. Total: {total_amount}.",
+  "parameters": [
+    {"name": "customer_name", "example": "John Smith"},
+    {"name": "shop_name", "example": "ABC Store"},
+    {"name": "order_id", "example": "OD12345"},
+    {"name": "total_amount", "example": "250,000 VND"}
+  ],
+  "cta": [
+    {"type": "url", "label": "Track order", "value": "https://shop.vn/track/OD12345"}
+  ],
+  "has_image": false,
+  "use_voucher_template": false
+}

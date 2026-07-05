@@ -1,0 +1,16 @@
+{
+  "template_name": "happy_birthday",
+  "tag": 3,
+  "purpose": "Wish a loyal customer happy birthday",
+  "industry": "Fashion",
+  "content": "Happy birthday {customer_name}! To celebrate, {shop_name} is giving you a 20% discount voucher on your next purchase.",
+  "parameters": [
+    {"name": "customer_name", "example": "Jane Doe"},
+    {"name": "shop_name", "example": "Fashion House"}
+  ],
+  "cta": [
+    {"type": "url", "label": "Shop now", "value": "https://fashionhouse.vn/sale"}
+  ],
+  "has_image": false,
+  "use_voucher_template": false
+}

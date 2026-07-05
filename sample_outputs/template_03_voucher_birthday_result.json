@@ -1,0 +1,19 @@
+{
+  "template_name": "happy_birthday",
+  "pass": false,
+  "violation_count": 2,
+  "violations": [
+    {
+      "rule_id": "R5_VOUCHER_TEMPLATE_REQUIRED",
+      "severity": "high",
+      "message": "The content mentions a voucher/discount/promo code but does not use the dedicated Voucher Template.",
+      "suggestion": "Switch the template to the 'Voucher Template' type and fully declare the applicable conditions."
+    },
+    {
+      "rule_id": "R6_BIRTHDAY_IMAGE",
+      "severity": "high",
+      "message": "Loyal-customer birthday templates must include an image.",
+      "suggestion": "Add a suitable banner image to the template."
+    }
+  ]
+}

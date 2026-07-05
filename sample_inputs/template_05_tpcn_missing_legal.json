@@ -1,0 +1,16 @@
+{
+  "template_name": "supplement_launch",
+  "tag": 3,
+  "purpose": "Introduce a new dietary supplement product",
+  "industry": "Dietary Supplement",
+  "content": "Hello {customer_name}, {shop_name} just launched a new health-boosting supplement, now 15% off this week.",
+  "parameters": [
+    {"name": "customer_name", "example": "Emily Carter"},
+    {"name": "shop_name", "example": "Golden Health Pharmacy"}
+  ],
+  "cta": [
+    {"type": "url", "label": "View product", "value": "https://goldenhealth.vn/new-supplement"}
+  ],
+  "has_image": true,
+  "use_voucher_template": true
+}

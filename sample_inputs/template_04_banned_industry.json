@@ -1,0 +1,16 @@
+{
+  "template_name": "service_promotion",
+  "tag": 3,
+  "purpose": "Promote an all-inclusive funeral service package",
+  "industry": "Funeral services",
+  "content": "Dear {customer_name}, {shop_name} is offering a 10% discount on all-inclusive funeral service packages this month.",
+  "parameters": [
+    {"name": "customer_name", "example": "Robert Lee"},
+    {"name": "shop_name", "example": "An Binh Services Co."}
+  ],
+  "cta": [
+    {"type": "phone_number", "label": "Call now", "value": "18001234"}
+  ],
+  "has_image": false,
+  "use_voucher_template": false
+}

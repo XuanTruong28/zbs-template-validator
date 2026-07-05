@@ -1,0 +1,49 @@
+{
+  "template_name": "appointment_reminder",
+  "pass": false,
+  "violation_count": 7,
+  "violations": [
+    {
+      "rule_id": "R1_PARAM_FORMAT",
+      "severity": "high",
+      "message": "Parameter '{you}' uses a personal pronoun, which is not accepted as a parameter name.",
+      "suggestion": "Change it to a specific identifying parameter, e.g. '{customer_name}'."
+    },
+    {
+      "rule_id": "R1_PARAM_FORMAT",
+      "severity": "high",
+      "message": "Parameter '{full name}' is not in the correct format (must be lowercase, no accents/spaces, words joined with '_').",
+      "suggestion": "Change it to the standard format, e.g.: '{full_name}'."
+    },
+    {
+      "rule_id": "R1_PARAM_UNUSED",
+      "severity": "low",
+      "message": "Parameter 'clinic_name' is declared but does not appear in the content.",
+      "suggestion": "Remove the unused parameter or add the corresponding placeholder in the content."
+    },
+    {
+      "rule_id": "R2_LINK_IN_CONTENT",
+      "severity": "high",
+      "message": "The template content contains a link, but links must be placed in a CTA button, not inserted into the content.",
+      "suggestion": "Remove the link from the content and add a 'url'-type CTA button pointing to that link."
+    },
+    {
+      "rule_id": "R2_PHONE_IN_CONTENT",
+      "severity": "high",
+      "message": "The template content contains a phone number, but phone numbers must be placed in a CTA button ('phone_number' type).",
+      "suggestion": "Remove the phone number from the content and add a 'phone_number'-type CTA button."
+    },
+    {
+      "rule_id": "R3_SHORTLINK_CTA",
+      "severity": "high",
+      "message": "The CTA button uses a shortlink (bit.ly), which is not allowed.",
+      "suggestion": "Use the full, non-shortened URL that points directly to the destination page."
+    },
+    {
+      "rule_id": "R4_MIN_PARAMS",
+      "severity": "high",
+      "message": "There is no customer-name parameter, so at least 3 other identifying parameters are required.",
+      "suggestion": "Add a customer-name parameter (recommended) or ensure at least 3 identifying parameters are present."
+    }
+  ]
+}

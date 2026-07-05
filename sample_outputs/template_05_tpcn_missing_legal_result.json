@@ -1,0 +1,13 @@
+{
+  "template_name": "supplement_launch",
+  "pass": false,
+  "violation_count": 1,
+  "violations": [
+    {
+      "rule_id": "R8_TPCN_LEGAL_TEXT",
+      "severity": "critical",
+      "message": "The dietary-supplement template is missing the mandatory legal disclaimer.",
+      "suggestion": "Add the sentence: 'This product is not a drug and is not a substitute for medicine.'"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "template_name": "appointment_reminder",
+  "tag": 2,
+  "purpose": "Remind customer of a medical appointment",
+  "industry": "Healthcare",
+  "content": "Hello {you}, {full name} has an appointment on {appointment_date}. See details at www.clinic.vn/booking or call 0987654321.",
+  "parameters": [
+    {"name": "appointment_date", "example": "10/07/2026"},
+    {"name": "clinic_name", "example": "XYZ Clinic"}
+  ],
+  "cta": [
+    {"type": "url", "label": "Reschedule", "value": "https://bit.ly/reschedule-now"}
+  ],
+  "has_image": false,
+  "use_voucher_template": false
+}
