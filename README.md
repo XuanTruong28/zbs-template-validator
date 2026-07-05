@@ -65,3 +65,7 @@ See the "Automatable?" column in `rule_map.md`. In short: any rule that needs im
 - Used AI to read and summarize the original ruleset (long, with many nested layers) into a structured rule map matching the 5 groups in the source document.
 - Used AI to generate the Python code skeleton (rule-function pattern) from the summarized rule map, then tested it myself against 5 sample inputs, found 2 real logic bugs (placeholders with accents/spaces slipping through; a substring match causing duplicate warnings) and fixed them myself by switching to word-boundary regex.
 - Did not use AI to self-certify the rules as 100% correct — the "Known limitations" section above is my own manual assessment after reviewing the actual output.
+
+*Project conducted by: Tran Xuan Truong - Faculty of Mathematics and Computer Science, VNU-HCM University of Science.*
+
+*Feel free to reach out via [truongxuan2834@gmail.com](mailto:truongxuan2834@gmail.com) for any discussion regarding this project.*
