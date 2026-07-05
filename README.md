@@ -18,8 +18,9 @@ validator/
 ## Try it out
 
 ```bash
-python validator.py sample_inputs/template_01_pass.json          # prints to stdout
-python validator.py sample_inputs/*.json --out sample_outputs/   # writes to file
+python validator.py sample_inputs/template_01_pass.json            # prints to stdout (Expected PASS)
+python validator.py sample_inputs/template_04_banned_industry.json # prints to stdout (Expected FAIL)
+python validator.py sample_inputs/*.json --out sample_outputs/     # writes to file (Batch/Integration Testing)
 ```
 
 ## Input schema (summary — see examples in sample_inputs/)
