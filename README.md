@@ -4,15 +4,15 @@
 
 ```
 validator/
-├── rule_map.md              # Full rule map (Step 1) — 5 rule groups + reasoning for which rules to automate
-├── validator.py              # Validation tool (Step 2)
-├── sample_inputs/            # 5 sample JSON inputs
+├── rule_map.md                                # Full rule map 
+├── validator.py                               # Validation tool 
+├── sample_inputs/                             # 5 sample JSON inputs
 │   ├── template_01_pass.json                  # Valid — expected PASS
 │   ├── template_02_param_link_issues.json     # Bad parameter format + link/phone in content + shortlink
 │   ├── template_03_voucher_birthday.json      # Birthday template missing image + missing Voucher Template
 │   ├── template_04_banned_industry.json       # Industry absolutely banned from Tag 3 (funeral services)
 │   └── template_05_tpcn_missing_legal.json    # Dietary supplement missing mandatory legal disclaimer
-└── sample_outputs/           # Corresponding output JSON (already run)
+└── sample_outputs/                            # Corresponding output JSON (already run)
 ```
 
 ## Try it out
