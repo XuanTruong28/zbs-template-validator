@@ -1,6 +1,6 @@
 # Rule Map — ZBS Template Message Moderation
 
-Source: *General rules for moderating ZBS Template messages* — zalo.solutions/news/quy-dinh-chung-khi-kiem-duyet-mau-tin-nhan-zbs
+> **Source:** *General rules for moderating ZBS Template messages* — [Zalo Business Solutions](https://zalo.solutions/news/quy-dinh-chung-khi-kiem-duyet-mau-tin-nhan-zbs/xdygqtrjjm97k28rsh07wr72)
 
 The rule map is organized into the same 5 groups as the original document. The **Automatable?** column marks which rules this tool can check purely from the JSON (✅), which ones it can only flag for a human reviewer to check further (⚠️), and which ones are out of scope because they require image OCR or legal verification (❌).
 
